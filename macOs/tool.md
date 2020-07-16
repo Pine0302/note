@@ -10,3 +10,4 @@
 > 3.安装 brew
 + /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 + 如果ssl连接不上 ping出raw.githubusercontent.com 的ip 然后在host里面加上 ip raw.githubusercontent.com
++ 上述安装方式需要开启vpn 暂时替代方法 /bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)"
