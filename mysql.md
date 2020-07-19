@@ -1,4 +1,4 @@
-### macOS系统使用
+### mysql使用
 > 1.mysql 初始化 timestamp，提示 Invalid default value for 'xxx'
 + 去掉 sql_mode 中的 values: NO_ZERO_IN_DATE,NO_ZERO_DATE 即可
 ```

@@ -14,4 +14,21 @@
 + @Value
 
 >数据库连接池
-+ 数据库连接池负责分配、管理和释放数据库连接，它允许应用程序重复使用一个现有的数据库连接，而不是再重新建立一个
+> + 数据库连接池负责分配、管理和释放数据库连接，它允许应用程序重复使用一个现有的数据库连接，而不是再重新建立一个
+> > druid 监控
+> + 1.基于Filter－Chain模式的插件体系。 
+> + 2.DruidDataSource 高效可管理的数据库连接池。
+> + 3.SQLParser
+> > HiKariCP
+> + 快
+
+> Spring的JDBC操作类
+> + core，jdbcTemplete 等相关核心接口和类
+> + datasource，数据源相关的辅助类
+> + object，将基本的JDBC操作封装成对象
+> + support，错误码等其他辅助工具
+
+>spring的事务抽象
+>> 一致的事务模型
+> + JDBC/Hibernate/myBatis
+> + DataSource/JTA
