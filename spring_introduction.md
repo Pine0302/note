@@ -22,7 +22,7 @@
 > > HiKariCP
 > + 快
 
-> Spring的JDBC操作类
+> Spring的JDBC(Java Database Connectivity)操作类
 > + core，jdbcTemplete 等相关核心接口和类
 > + datasource，数据源相关的辅助类
 > + object，将基本的JDBC操作封装成对象

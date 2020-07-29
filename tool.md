@@ -1,6 +1,7 @@
 ### macOS系统使用
-> 1.绑定路由
+> 1.绑定/删除路由
 + sudo route -n add -net 192.168.189.0 -netmask 255.255.255.0 192.168.100.10
++ sudo route -v delete -net 192.168.189.0 -gateway 192.168.100.10
 
 > 2.查找和清理大文件
 + 查看目录大小: sudo du -sh *
