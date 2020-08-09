@@ -32,3 +32,5 @@
 >> 一致的事务模型
 > + JDBC/Hibernate/myBatis
 > + DataSource/JTA
+
++ 如果你想定制一些spring的组件的特性，在spring boot中，打开他的自动配置，看看他的自动配置是怎么做的，有没有给你留一些口子，让你来定义这些bean

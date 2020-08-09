@@ -12,3 +12,12 @@
 + /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 + 如果ssl连接不上 ping出raw.githubusercontent.com 的ip 然后在host里面加上 ip raw.githubusercontent.com
 + 上述安装方式需要开启vpn 暂时替代方法 /bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)"
+
+> 4.查看端口占用 
++ sudo lsof -i:1080   kill -9 pid
+
+  
+>5. ssr 命令
+```
+ ./ssr_mac_client/ssr-client -c ./ssr_mac_client/config.json  
+ ```
