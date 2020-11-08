@@ -148,3 +148,9 @@ Read/Write Through Pattern
 Write Behind Caching Pattern
 
 + https://coolshell.cn/articles/17416.html 缓存更新的套路
+
+
+>redis5 使用stream 完成消费队列功能
+
+1.To create a new consumer group 生成一个消费组
+XGROUP CREATE mystream consumer-group-name $ (XGROUP CREATE mystream consumer-group-name 0)
