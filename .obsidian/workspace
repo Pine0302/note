@@ -1,0 +1,100 @@
+{
+  "main": {
+    "id": "a1bcd1616cf114b1",
+    "type": "split",
+    "children": [
+      {
+        "id": "c00d3fb0ec40918c",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "heqianmo.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2077d9ddffa13e5d",
+    "type": "split",
+    "children": [
+      {
+        "id": "cdd017b66c01f511",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e2c3665bb1154e2c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "2be3efb706cb0e2b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a78902277c3d9f26",
+    "type": "split",
+    "children": [
+      {
+        "id": "42f27ab0c6e175b7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b909b0f9ac9c4da1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "heqianmo.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "heqianmo.md",
+    "git.md",
+    "java/interview.md",
+    "ASD-UML.md",
+    "docker.md",
+    "itword.md",
+    "linux_commend.md",
+    "mysql.md",
+    "mysql_theory.md",
+    "network.md"
+  ]
+}

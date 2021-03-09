@@ -30,3 +30,7 @@
  ```
  brew install iproute2mac
 ```
+> 7.处理wifi按钮卡死问题
+```
+sudo killall airportd
+```
