@@ -60,3 +60,12 @@ sudo gitlab-runner restart
 
 + gitlab的备份和恢复
 + + https://www.cnblogs.com/root0/p/9268866.html
+
+> git submodule 
+```
+git submodule add https://code.yidaoit.net/huajiemeifu/huawujie.git ydb-projects\huajiemeifu\huawujie
+git submodule add https://code.yidaoit.net/heqianmo/backend.git ddb/heqianmo/backend
+git clone https://code.yidaoit.net/yangtaimeng/workspace.git
+git submodule init 
+git submodule update 
+```
