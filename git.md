@@ -65,7 +65,19 @@ sudo gitlab-runner restart
 ```
 git submodule add https://code.yidaoit.net/huajiemeifu/huawujie.git ydb-projects\huajiemeifu\huawujie
 git submodule add https://code.yidaoit.net/heqianmo/backend.git ddb/heqianmo/backend
+
 git clone https://code.yidaoit.net/yangtaimeng/workspace.git
 git submodule init 
 git submodule update 
 ```
+
+
++ git命令图解：https://dev.to/lydiahallie/cs-visualized-useful-git-commands-37p1
++ 指定某个分支在执行git pull时默认采用rebase方式(必须cd到你工程的目录下，才能更改分支的配置)
+```
+git config branch.dev.rebase true
+```
+
++ 所有的新分支都使用rebase(这样对于新建的分支都会设定上面的rebase=true了。已经创建好的分支还是需要手动配置)
+```
+git config --global branch.autosetuprebase always

@@ -34,3 +34,6 @@
 ```
 sudo killall airportd
 ```
+
+> idea 项目使用 eclipse 打开
++ 项目根目录-->import-->Maven-->Existing Maven Projects
