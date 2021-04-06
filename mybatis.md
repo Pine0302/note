@@ -1,0 +1,1 @@
++ 关联表查询时，a DO中包含被关联元素的b DO，那么要在a mapper中写关联sql。否则会报Java异常ClassCastException
