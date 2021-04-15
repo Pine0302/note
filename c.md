@@ -5,3 +5,8 @@ gcc -S main.i -o main.S //第二步：hello.i（文本）经过编译器生成he
 gcc -c main.c -o main.o //第三步：hello.s（文本）经过汇编器生成hello.o（二进制）。
 gcc main.o -o main    //第四步：hello.o（二进制）经过链接器生成hello可执行文件。
 ```
++ 反汇编指令
+```
+objdump -d -S gdbtest
+objdump -d -S gdbtest.o
+```
