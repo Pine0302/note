@@ -156,3 +156,7 @@ NOTE:  Pressing just the motion while in Normal mode without an operator will
      To undo all the changes on a line, type:  U  (capital U)
      To undo the undo's, type:                 CTRL-R
 ```
++ global char substitude
+```
+:%s#originalChar#targetChar#g 
+```
