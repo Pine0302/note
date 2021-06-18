@@ -14,3 +14,4 @@ du -ah --max-depth=1
 ```
 find . -path ./vendor -prune -o -name "*.php"| xargs cat | wc -l
 ```
++ cd ~  回到home   cd - 回到上一个目录
